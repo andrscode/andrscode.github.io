@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="logo.jpg" title="GG Store" alt="Logo" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="converter">
+        <h1>Comprar oro</h1>
+        <label for="gold">Cantidad de oro (Millones):</label>
+        <input type="text" id="gold" placeholder="Ingrese la cantidad de oro" autocomplete="off">
+        <p id="result"></p>
+        <p id="vesResult"></p>
+        
+
+        <div class="payment-options">
+            <h2>Opciones de Pago</h2>
+            <img src="path/to/pago-movil-icon.png" alt="Pago Móvil" class="payment-icon" id="pagoMovil">
+            <img src="path/to/binance-icon.png" alt="Binance" class="payment-icon" id="binance">
+            <img src="path/to/btc-icon.png" alt="BTC" class="payment-icon" id="btc">
+        </div>
+        <button id="buyButton">Comprar</button>
+        <p id="orderMessage"></p>
+    </div>
+
+    <div class="converter">
+        <h1>Vender Oro</h1>
+        <label for="sellGold">Cantidad de oro (Millones):</label>
+        <input type="text" id="sellGold" placeholder="Ingrese la cantidad de oro" autocomplete="off">
+        <p id="sellResult"></p>
+        <p id="sellVesResult"></p>
+        
+
+        <div class="payment-options">
+            <h2>Opciones de Pago</h2>
+            <img src="path/to/pago-movil-icon.png" alt="Pago Móvil" class="payment-icon" id="sellPagoMovil">
+            <img src="path/to/binance-icon.png" alt="Binance" class="payment-icon" id="sellBinance">
+            <img src="path/to/btc-icon.png" alt="BTC" class="payment-icon" id="sellBtc">
+        </div>
+        
+        <p id="sellOrderMessage"></p>
+        <button id="sellButton">Vender</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
